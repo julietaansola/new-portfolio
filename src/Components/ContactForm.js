@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form/dist/index.ie11';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import './contactForm.css';
 
 
 
@@ -50,9 +51,9 @@ const ContactForm = () => {
 
   return (
     <div className='ContactForm'>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-12 text-center'>
+      <div className='containerContact'>
+        <div className='rowContac'>
+          <div >
             <div className='contactForm'>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
@@ -125,7 +126,7 @@ const ContactForm = () => {
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-                <button className='submit-btn' type='submit'>
+                <button className='submit-btn btnContact' type='submit'>
                   Submit
                 </button>
               </form>
