@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import { useForm } from 'react-hook-form/dist/react-hook-form.ie11';
+import { useForm } from 'react-hook-form/dist/index.ie11';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
