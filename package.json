@@ -4,6 +4,7 @@
   "homepage": ".",
   "private": true,
   "dependencies": {
+    "@babel/runtime-corejs3": "^7.12.18",
     "anix": "^0.3.3",
     "bootstrap": "^4.6.0",
     "emailjs-com": "^2.6.4",
